@@ -6,7 +6,6 @@ if game.PlaceId == 17720162456 then
       player.Character.HumanoidRootPart.CFrame = CFrame.new(-333.0579833984375, 16.933761596679688, 2945.642578125)
     humanoid:MoveTo(Vector3.new(-351.4451599121094, 16.70022201538086, 2964.232421875))
     wait(2)
-
 local args = {
     [1] = workspace.Teleporters.Teleporter4,
     [2] = 10,
@@ -15,6 +14,7 @@ local args = {
 }
 
 game:GetService("ReplicatedStorage").Remotes.Teleporters.ChooseStage:FireServer(unpack(args))
+
 
 else
     local success, err = pcall(function()
@@ -63,3 +63,6 @@ else
         warn("Ошибка: " .. err)
     end
 end
+
+
+6-10, тож самое, меняем левлы там и тд
